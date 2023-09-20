@@ -1,0 +1,75 @@
+@font-face{
+	font-family: 'sara';
+				src: url("../fonts/Yekan.ttf") format('truetype');
+		  }
+
+body{
+	background-color: rgb(23, 31, 46);
+	font-family: sara;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 650px;
+	height: 400px;
+	margin: 155px auto;
+	box-shadow: 0 0 40px rgb(255, 255, 255);
+	border-radius:10px 25px 10px 25px ;
+	position: relative;
+}
+
+
+.box{
+	width: 250px;
+	height: 100%;
+	border-radius:10px 25px 10px 25px ;
+	box-shadow: 0 0 10px rgb(255, 255, 255); 
+	position: absolute;
+	bottom: 35px;
+	right: 35px;
+	overflow: hidden;
+	
+}
+
+.box img{
+	width: 100%;
+	
+}
+
+
+.p1{
+	width: 300px;
+	position: absolute;
+	left: 35px;
+	top: 30px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	margin-top: 80px;
+}
+
+
+.box p{
+	margin: 5px 12px;
+	color: white;
+	margin-top: 20px;
+}
+
+
+.p2{
+	line-height: 2;
+	margin-left: 5spx;
+	
+}
+
+
+
+
+
+
+
